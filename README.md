@@ -1,4 +1,5 @@
 # autosports-intern-task
-[![Netlify Status](https://api.netlify.com/api/v1/badges/03612c66-4ca7-4b60-ae9c-fea44521ef16/deploy-status)](https://app.netlify.com/sites/autosuports-intern-task/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fb5e233-b5b0-4b99-ad4d-5e6dadc14df5/deploy-status)](https://app.netlify.com/sites/darling-crostata-c16caf/deploys)
 
 Created with CodeSandbox

@@ -1,3 +1,6 @@
+import styled from "styled-components";
+import { defaultTheme, typeScale } from "../../utils";
+
 const Button = styled.button`
   padding: 8px 12px;
   font-size: ${typeScale.paragraph};

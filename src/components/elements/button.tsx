@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { defaultTheme, typeScale } from "../../utils";
 
 const Button = styled.button`
-  padding: 8px 12px;
+  padding: 5px 10px;
   font-size: ${typeScale.paragraph};
-  border-radius: 2px;
+  border-radius: 4px;
   min-width: 100px;
   cursor: pointer;
   font-family: ${defaultTheme.primaryFont};
@@ -35,14 +35,13 @@ const Button = styled.button`
   }
 `;
 
-const PrimaryButton = styled(Button)`
+export const PrimaryButton = styled(Button)`
   background-color: ${defaultTheme.primaryColor};
   color: ${defaultTheme.textColorOnPrimary};
   border: 2px solid transparent;
 
   &:disabled {
     background-color: ${defaultTheme.disabled};
-    color: ${defaultTheme.textOnDisabled};
     border-color: ${defaultTheme.disabled};
   }
 `;

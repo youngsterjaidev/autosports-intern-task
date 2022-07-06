@@ -90,7 +90,7 @@ const Image = styled.div<ImageProp>`
 `;
 
 const App = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [scripName, setScripName] = useState<string>("");
   const [buyingPrice, setBuyingPrice] = useState<number>();
   const [quantity, setQuantity] = useState<number>();
@@ -236,7 +236,10 @@ const App = () => {
         </div>
         <div>
           <PrimaryButton type="submit" as={SubmitButton}>Submit</PrimaryButton>
-          <PrimaryButton as={CancelButton}>Cancel</PrimaryButton>
+          <PrimaryButton type="reset" as={CancelButton}>Cancel</PrimaryButton>
+        </div>
+        <div>
+          <PrimaryButton type="button" onClick={() => setShowModal(!showModal)}>Page 2</PrimaryButton>
         </div>
       </Form>
       {showModal ? (
